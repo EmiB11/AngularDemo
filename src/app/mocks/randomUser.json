@@ -1,0 +1,66 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Douglas",
+        "last": "Chavez"
+      },
+      "location": {
+        "street": {
+          "number": 2759,
+          "name": "New Street"
+        },
+        "city": "Edinburgh",
+        "state": "Fife",
+        "country": "United Kingdom",
+        "postcode": "BL6X 8GN",
+        "coordinates": {
+          "latitude": "-9.2777",
+          "longitude": "-59.2362"
+        },
+        "timezone": {
+          "offset": "+8:00",
+          "description": "Beijing, Perth, Singapore, Hong Kong"
+        }
+      },
+      "email": "douglas.chavez@example.com",
+      "login": {
+        "uuid": "42d4745d-981a-4684-af7b-8b299dcf9b17",
+        "username": "heavypanda589",
+        "password": "wifes",
+        "salt": "KFfQAGpy",
+        "md5": "5c684e43fb977eac8ed0e7dfdc912c5f",
+        "sha1": "3cf299393ec1f67cbce1b97f3b0752a3d3add45d",
+        "sha256": "af2985eeff1ce8b2b62d04a9bce7c32bf1bc377f7237322be115302df08ff04c"
+      },
+      "dob": {
+        "date": "1987-02-13T10:32:09.402Z",
+        "age": 35
+      },
+      "registered": {
+        "date": "2004-11-06T09:00:34.814Z",
+        "age": 17
+      },
+      "phone": "015396 10605",
+      "cell": "07878 569736",
+      "id": {
+        "name": "NINO",
+        "value": "KG 12 15 37 I"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/62.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/62.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/62.jpg"
+      },
+      "nat": "GB"
+    }
+  ],
+  "info": {
+    "seed": "9029e94e3fff4365",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

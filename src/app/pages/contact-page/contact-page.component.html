@@ -1,0 +1,11 @@
+<h1>Tus contactos:{{filtroEdad === 'mayor30' ? "Mayores de 30 años " : filtroEdad === 'menor30' ? 'Menores de 30 años' : 'Todos los contactos' }}</h1>
+
+<!-- Listar los contactos y poder navegar a cada uno de ellos -->
+<div *ngFor="let contacto of listaContactos; let i = index">
+ <div routerLink="{{contacto.id}}" [state]="{data:contacto , filtro: filtroEdad}" [ngStyle]="{cursor:'pointer'}">
+    <h3>Nombre :{{contacto.nombre}}</h3>
+    <p>Edad: {{contacto.edad}}</p>
+    <button (click)="volverAHome(contacto)">Enviar contacto</button>
+ </div>
+</div>
+<a routerLink="/home" >volver</a>

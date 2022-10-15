@@ -1,0 +1,32 @@
+:host {
+    display:flex;
+    justify-content: center;
+    margin: 100px 0px;
+}
+
+//modificar los estilos de Card
+mat-card{
+  max-width: 400px;
+  margin: 12em auto;
+  text-align: center;
+}
+
+mat-card-header{
+    display: unset;
+
+}
+
+mat-card-content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+//Modificamos los estilos de los campos de angular MAterioa
+
+mat-form-field{
+  display:block;
+  min-width: 300px;
+  width: 100%;
+}

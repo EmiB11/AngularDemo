@@ -1,0 +1,10 @@
+<h1>Home PAge</h1>
+<h3> ¡ Bienvenidos !</h3>
+<h4 *ngIf="contactoSeleccionado">Has seleccionado a : {{contactoSeleccionado.nombre}}</h4>
+<!-- Hacer un login -->
+<div *ngIf="!logueado"><a routerLink="/login"  >Iniciar sesión</a></div>
+
+<button (click)="navegarAcontacts()">Navegar a contactos</button>
+<div><a [routerLink]="['/contacts']" [queryParams]="{edad:'mayor30'}">Mayores de 30</a></div>
+
+<div><a [routerLink]="['/contacts']" [queryParams]="{edad:'menor30'}">Menores de 30</a></div>
